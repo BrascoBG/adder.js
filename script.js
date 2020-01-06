@@ -1,0 +1,11 @@
+function calculate(){
+  let firstNumber = parseInt(document.getElementById("firstNumber").value);
+
+  let secondNumber = parseInt(document.getElementById("secondNumber").value);
+
+  document.getElementById("result").value = firstNumber + secondNumber; 
+}
+
+let calculateButton = document.getElementById("calculateButton");
+
+calculateButton.addEventListener("click", calculate);
